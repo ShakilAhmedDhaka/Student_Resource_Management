@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="assets/css/nav_header_footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/updown_style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/customized_menu.css">
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" />
+	<script src="https://code.jquery.com/jquery-1.8.3.js"></script>
+	<script src="https://code.jquery.com/jquery-1.10.1.js"></script>
+	<script src="https//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+	<title>Documents</title>
+</head>
+<body>
+
+	<div>
+    	<nav id="colorNav">
+			<ul>
+				<li class="green">
+					<a href="#" class="icon-home"></a>
+				</li>
+				<li class="red">
+					<a href="updown.html" class="icon-file"></a>
+					<ul>
+						<li><a href="#">Upload</a></li>
+						<li><a href="#">Download</a></li>
+					</ul>
+				</li>
+				<li class="blue">
+					<a href="#" class="icon-calendar"></a>
+				</li>
+				<li class="yellow">
+					<a href="#" class="icon-comment"></a>
+					<ul>
+						<li><a href="#">Inbox</a></li>
+						<li><a href="#">ChatBox</a></li>
+					</ul>
+				</li>
+				<li class="purple">
+					<a href="profile.html" class="icon-user"></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+	<div style="padding-top:120px">
+		<div class="file_list" data-id="1">
+			<div id="icon_name">
+				<div style="width:10%;height:45px;line-height: 45px;;float:left;border-radius:100px;background-color:#F6F6F6;margin: 2px 5px 2px 5px;text-align:center;">
+					<img style="vertical-align:middle" src="images/file_icon2.png" height="35px" width="35px">
+
+				</div>
+				<div style="width:50%;height:50%;float:left;padding-left:30px;padding-top:15px"><p>Slide.txt</p></div>
+			</div>
+			<div id="file_description">
+				<div style="float:left;text-align:center;width:40%;height:100%;padding-top:15px"><p>Owner</p></div>
+				<div style="float:right;text-align:center;width:60%;height:100%;padding-top:15px"><p>Last Modified</p></div>
+			</div>
+
+		</div>
+		<div class="file_list" data-id="1">
+			<div id="icon_name">
+				<div style="width:10%;height:45px;line-height: 45px;;float:left;border-radius:100px;background-color:#F6F6F6;margin: 2px 5px 2px 5px;text-align:center;">
+					<img style="vertical-align:middle" src="images/file_icon2.png" height="35px" width="35px">
+
+				</div>
+				<div style="width:50%;height:50%;float:left;padding-left:30px;padding-top:15px"><p>Slide.txt</p></div>
+			</div>
+			<div id="file_description">
+				<div style="float:left;text-align:center;width:40%;height:100%;padding-top:15px"><p>Owner</p></div>
+				<div style="float:right;text-align:center;width:60%;height:100%;padding-top:15px"><p>Last Modified</p></div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<nav id="context-menu" class="context-menu">
+    <ul class="context-menu__items">
+      <li class="context-menu__item">
+        <a href="#" class="context-menu__link" data-action="Download"><i class="fa fa-eye"></i> Download</a>
+      </li>
+      <li class="context-menu__item">
+        <a href="#" class="context-menu__link" data-action="Edit"><i class="fa fa-edit"></i> Edit Task</a>
+      </li>
+      <li class="context-menu__item">
+        <a href="#" class="context-menu__link" data-action="Delete"><i class="fa fa-times"></i> Delete Task</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  	<footer>
+        <h2><i>CSE 482 Project:</i> A Student Utility System</h2>
+        <a class="tzine" href="#">Shakil Ahmed(#121 0499 042)</a>
+   	</footer>
+
+	<script src="assets/scripts/updown.js"></script>
+	<script src="assets/scripts/customized_menu.js"></script>
+</body>
+</html>

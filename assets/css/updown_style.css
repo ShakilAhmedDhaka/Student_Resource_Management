@@ -1,0 +1,129 @@
+
+body{
+	width: 100%;
+	background-color: #E4E4E4;
+}
+
+.file_list{
+	width:60%;
+	margin: 0 auto;
+	background-color: #F6F6F6;
+	height:50px;
+	border: 1px solid #E4E4E4;
+}
+
+.icon_name{
+	
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+
+.file_description{
+
+	float: right;
+	width: 40%;
+	height: 100%;
+	text-align: center;
+}
+
+
+
+.custom-menu {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    font-family: sans-serif;
+    background: #FFF;
+    color: #333;
+    border-radius: 5px;
+}
+
+.imageForFileList{
+	vertical-align:middle;
+	height: 35px;
+	width: 35px;
+}
+
+
+
+
+.div_4{
+	width:10%;
+	height:45px;
+	line-height: 45px;
+	float:left;
+	border-radius:100px;
+	background-color:#F6F6F6;
+	margin: 2px 5px 2px 5px;
+	text-align:center;
+}
+
+.div_5{
+	/**background-color:orange;**/
+	width:80%;
+	height:50%;
+	float:left;
+	padding-left:30px;
+	padding-top:15px;
+}
+
+.div_7{
+	float:left;
+	text-align:center;
+	width:40%;
+	height:100%;
+	padding-top:15px;
+}
+
+.div_8{
+	float:right;
+	text-align:center;
+	width:60%;
+	height:100%;
+	padding-top:15px;
+}
+
+
+#list_container{
+	/*background-color: red;*/
+	overflow: auto;
+	/*margin-top:3%;*/
+	max-height: 360px;
+	z-index: -10;
+
+}
+
+#upload{
+	display: none;
+}
+
+#file_list1{
+	background-color: #E4E4E4;
+	width:60%;
+	margin: 0 auto;
+	/*background-color: #F6F6F6;*/
+	height:50px;
+	border: 1px solid #E4E4E4;
+
+}
+
+#imageForFileList1{
+	display: none;
+	vertical-align:middle;
+	height: 35px;
+	width: 35px;
+}
+
+
+
+#file_list2{
+	display: none;
+}
+
+
+

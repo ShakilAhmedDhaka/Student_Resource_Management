@@ -1,0 +1,50 @@
+#share_prompt{
+	display: none;
+	background-color:#2196F3;
+	width:15%;
+	/*min-height: 20%;*/
+	margin:0 auto;
+	top:50%;left:40%;
+	z-index:10;
+	position: absolute;
+	border-radius: 10px;
+}
+
+#share_prompt h3{
+	text-align:center;
+	padding-top:5%;
+	color: #0D47A1;
+}
+
+#frinds_list_container{
+	height: 70px;
+	overflow: auto;
+}
+
+
+.frnd_holder_class{
+	/*#7FC6A4*/
+	background-color:#BBDEFB;
+	height:40px;
+	width:70%;
+	margin-left:40px;
+	
+	border: 2px solid #BDBDBD;
+}
+
+.shr_res_img{
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	float: left;
+}
+
+.shr_res_p{
+	text-align: center;
+	padding-top: 10px;
+}
+
+#ok_button_share{
+	background-color: #0D47A1;
+	color: #FCFCFC;
+}

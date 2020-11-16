@@ -1,0 +1,47 @@
+#search_for_friend{
+	/*background-color:red;*/
+	height:90px;
+	width:300px;
+	margin-left:80%;
+}
+
+#search_icon{
+	/*background-color:blue;*/
+	width:40px;
+	float:left;
+	height:100%;
+	text-decoration:none;
+	font-size:25px;
+	text-align:center;
+	color: #92DCE5;
+}
+
+#search_input{
+	height:40px;
+	width:85%;
+	border-radius:5px;
+	border: 2px solid #92DCE5;
+}
+
+#search_res{
+	/*background-color:green;*/
+	background-color:#7FC6A4;
+	height:40px;
+	width:70%;
+	margin-left:40px;
+	display: none;
+	border: 2px solid #BDBDBD;
+}
+
+
+#search_res_img{
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	float: left;
+}
+
+#search_res_p{
+	text-align: center;
+	padding-top: 10px;
+}

@@ -1,0 +1,41 @@
+#rename_prompt{
+	display: none;
+	background-color:#9E9E9E;
+	width:15%;
+	min-height: 20%;
+	margin:0 auto;
+	top:50%;left:40%;
+	z-index:10;
+	position: absolute;
+	border-radius: 10px;
+}
+
+#rename_prompt h3{
+	text-align:center;
+	padding-top:5%;
+}
+
+#rename_prompt p{
+	margin-left:1%;
+	padding-top:7%;
+}
+
+#rename_prompt_txt{
+	width:80%;
+	margin-left:1%;
+	border-radius:5px;
+	padding-top:2%;
+}
+
+.buttons_holder{
+	text-align:right;
+	padding: 10px;
+}
+
+.rename_buttons{
+	width:60px;
+	border-radius:5px;
+	background-color:#727272;
+	margin-top:5%;
+	border: 2px solid black;
+}

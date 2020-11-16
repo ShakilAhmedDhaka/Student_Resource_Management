@@ -1,0 +1,24 @@
+[
+name
+id
+email address
+password
+]
+
+[
+phone
+address
+facebook
+twitter
+website
+]
+
+[
+courseList
+friendList
+file
+task
+event
+chat history
+notification
+]
